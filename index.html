@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site sobre o Campeonato Brasileiro de Futebol">
-    <title>Campeonato Brasileiro</title>
+    <meta name="description" content="Informações, classificação e próximos jogos do Campeonato Brasileiro 2026.">
+    <title>Brasileirão 2026 | Futebol Brasileiro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho">
         <div class="container">
-            <h1>Campeonato Brasileiro</h1>
+            <h1>Brasileirão 2026</h1>
             <nav class="menu">
                 <a href="#inicio">Início</a>
                 <a href="#sobre">Sobre</a>
+                <a href="#tabela">Tabela</a>
+                <a href="#jogos">Próximos jogos</a>
                 <a href="#historia">História</a>
-                <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
@@ -23,66 +24,96 @@
     <main>
         <section id="inicio" class="hero">
             <div class="container">
+                <span class="etiqueta">CAMPEONATO BRASILEIRO • 2026</span>
                 <h2>Paixão pelo futebol brasileiro</h2>
-                <p>
-                    O Campeonato Brasileiro é uma das principais competições
-                    de futebol do Brasil e reúne clubes de diferentes regiões
-                    do país em busca do título nacional.
-                </p>
-                <a href="#sobre" class="botao">Saiba mais</a>
+                <p>Notícias, classificação e próximos confrontos do Brasileirão em uma página simples e responsiva.</p>
+                <a href="#tabela" class="botao">Ver classificação</a>
             </div>
         </section>
 
         <section id="sobre" class="secao">
             <div class="container">
-                <h2>Sobre o Campeonato Brasileiro</h2>
-                <p>
-                    O Campeonato Brasileiro de Futebol, conhecido popularmente
-                    como Brasileirão, é disputado por clubes brasileiros e
-                    possui grande importância no cenário esportivo nacional.
-                    A competição é marcada pela tradição dos clubes, pela
-                    rivalidade entre as torcidas e pela disputa por posições
-                    ao longo da temporada.
-                </p>
-                <img
-                    src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80"
-                    alt="Jogador de futebol em um campo"
-                    class="imagem"
-                >
+                <h2>Sobre o Brasileirão</h2>
+                <p>O Campeonato Brasileiro Série A reúne 20 clubes em um sistema de pontos corridos. Ao longo de 38 rodadas, os times disputam o título, vagas nas competições continentais e a permanência na elite.</p>
+                <div class="cards">
+                    <article class="card"><strong>20</strong><span>clubes</span></article>
+                    <article class="card"><strong>38</strong><span>rodadas</span></article>
+                    <article class="card"><strong>380</strong><span>jogos na temporada</span></article>
+                    <article class="card"><strong>2026</strong><span>temporada atual</span></article>
+                </div>
+                <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1200&q=80" alt="Jogador de futebol em um campo" class="imagem">
+            </div>
+        </section>
+
+        <section id="tabela" class="secao destaque">
+            <div class="container">
+                <h2>Tabela do Brasileirão 2026</h2>
+                <p class="atualizacao">Atualizada após a 28ª rodada • 5 de outubro de 2026</p>
+                <div class="tabela-wrapper">
+                    <table>
+                        <thead>
+                            <tr><th>#</th><th>Clube</th><th>Pts</th><th>J</th><th>V</th><th>E</th><th>D</th><th>SG</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr class="libertadores"><td>1</td><td>Flamengo</td><td>60</td><td>28</td><td>18</td><td>6</td><td>4</td><td>+32</td></tr>
+                            <tr class="libertadores"><td>2</td><td>Palmeiras</td><td>57</td><td>28</td><td>16</td><td>9</td><td>3</td><td>+26</td></tr>
+                            <tr class="libertadores"><td>3</td><td>Athletico-PR</td><td>49</td><td>28</td><td>14</td><td>7</td><td>7</td><td>+11</td></tr>
+                            <tr class="libertadores"><td>4</td><td>Fluminense</td><td>48</td><td>28</td><td>13</td><td>9</td><td>6</td><td>+8</td></tr>
+                            <tr><td>5</td><td>Bahia</td><td>46</td><td>28</td><td>12</td><td>10</td><td>6</td><td>+8</td></tr>
+                            <tr><td>6</td><td>Cruzeiro</td><td>45</td><td>28</td><td>13</td><td>6</td><td>9</td><td>+2</td></tr>
+                            <tr><td>7</td><td>Atlético-MG</td><td>40</td><td>27</td><td>11</td><td>7</td><td>9</td><td>+4</td></tr>
+                            <tr><td>8</td><td>Santos</td><td>38</td><td>27</td><td>10</td><td>8</td><td>9</td><td>+1</td></tr>
+                            <tr><td>9</td><td>Coritiba</td><td>38</td><td>28</td><td>10</td><td>8</td><td>10</td><td>-6</td></tr>
+                            <tr><td>10</td><td>Bragantino</td><td>36</td><td>27</td><td>10</td><td>6</td><td>11</td><td>+2</td></tr>
+                            <tr><td>11</td><td>São Paulo</td><td>36</td><td>27</td><td>10</td><td>6</td><td>11</td><td>+2</td></tr>
+                            <tr><td>12</td><td>Botafogo</td><td>35</td><td>28</td><td>9</td><td>8</td><td>11</td><td>-4</td></tr>
+                            <tr><td>13</td><td>Vitória</td><td>33</td><td>28</td><td>9</td><td>6</td><td>13</td><td>-14</td></tr>
+                            <tr><td>14</td><td>Corinthians</td><td>32</td><td>28</td><td>8</td><td>8</td><td>12</td><td>-3</td></tr>
+                            <tr><td>15</td><td>Mirassol</td><td>32</td><td>28</td><td>8</td><td>8</td><td>12</td><td>-9</td></tr>
+                            <tr class="zona-rebaixamento"><td>16</td><td>Vasco</td><td>31</td><td>27</td><td>8</td><td>7</td><td>12</td><td>-7</td></tr>
+                            <tr class="zona-rebaixamento"><td>17</td><td>Grêmio</td><td>29</td><td>28</td><td>7</td><td>8</td><td>13</td><td>-8</td></tr>
+                            <tr class="zona-rebaixamento"><td>18</td><td>Internacional</td><td>28</td><td>28</td><td>6</td><td>10</td><td>12</td><td>-6</td></tr>
+                            <tr class="zona-rebaixamento"><td>19</td><td>Remo</td><td>23</td><td>28</td><td>5</td><td>8</td><td>15</td><td>-15</td></tr>
+                            <tr class="zona-rebaixamento"><td>20</td><td>Chapecoense</td><td>18</td><td>27</td><td>3</td><td>9</td><td>15</td><td>-24</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="legenda"><span>■</span> destaque: G-4 / <span>■</span> Z-4: zona de rebaixamento</div>
+            </div>
+        </section>
+
+        <section id="jogos" class="secao">
+            <div class="container">
+                <h2>Próximos jogos</h2>
+                <p class="atualizacao">29ª rodada • 7 e 8 de outubro de 2026</p>
+                <div class="jogos-grid">
+                    <article class="jogo"><span>07/10 • 19h30</span><strong>Internacional × Corinthians</strong><small>Beira-Rio</small></article>
+                    <article class="jogo"><span>07/10 • 19h30</span><strong>Bragantino × Mirassol</strong><small>Cícero de Souza Marques</small></article>
+                    <article class="jogo"><span>07/10 • 19h30</span><strong>Remo × Grêmio</strong><small>Mangueirão</small></article>
+                    <article class="jogo"><span>07/10 • 20h00</span><strong>Vitória × Chapecoense</strong><small>Barradão</small></article>
+                    <article class="jogo"><span>07/10 • 20h30</span><strong>Botafogo × Vasco</strong><small>Nilton Santos</small></article>
+                    <article class="jogo"><span>07/10 • 21h30</span><strong>Cruzeiro × São Paulo</strong><small>Mineirão</small></article>
+                    <article class="jogo"><span>08/10 • 19h30</span><strong>Santos × Flamengo</strong><small>Vila Belmiro</small></article>
+                    <article class="jogo"><span>08/10 • 20h00</span><strong>Athletico-PR × Atlético-MG</strong><small>Arena da Baixada</small></article>
+                    <article class="jogo"><span>08/10 • 21h30</span><strong>Fluminense × Coritiba</strong><small>Maracanã</small></article>
+                    <article class="jogo"><span>08/10 • 21h30</span><strong>Palmeiras × Bahia</strong><small>Nubank Parque</small></article>
+                </div>
             </div>
         </section>
 
         <section id="historia" class="secao destaque">
             <div class="container">
-                <h2>História</h2>
-                <p>
-                    A história do Campeonato Brasileiro está ligada ao
-                    desenvolvimento do futebol no país. Ao longo das décadas,
-                    a competição passou por diferentes formatos e ganhou cada
-                    vez mais destaque entre os torcedores brasileiros.
-                </p>
-                <p>
-                    Grandes clubes e jogadores ajudaram a construir a tradição
-                    do campeonato, tornando o Brasileirão uma das competições
-                    esportivas mais acompanhadas do Brasil.
-                </p>
-            </div>
-        </section>
-
-        <section id="contato" class="secao">
-            <div class="container">
-                <h2>Contato</h2>
-                <p>
-                    Este é um projeto simples desenvolvido com HTML e CSS
-                    para apresentar informações sobre o Campeonato Brasileiro.
-                </p>
+                <h2>História e importância</h2>
+                <p>O Brasileirão é uma das principais competições esportivas do país. Sua história reúne grandes clubes, jogadores, torcidas e rivalidades, com diferentes formatos ao longo das décadas.</p>
+                <p>A temporada de pontos corridos transforma cada rodada em uma disputa constante: vencer, empatar ou perder pode alterar a briga pelo título, pelas vagas internacionais ou contra o rebaixamento.</p>
             </div>
         </section>
     </main>
 
     <footer class="rodape">
         <div class="container">
-            <p>&copy; 2026 Campeonato Brasileiro - Todos os direitos reservados.</p>
+            <p>&copy; 2026 Brasileirão • Projeto desenvolvido com HTML e CSS.</p>
+            <p>Dados da classificação e calendário consultados em 05/10/2026.</p>
         </div>
     </footer>
 </body>
