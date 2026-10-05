@@ -1,200 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    color: #222;
-    background-color: #f4f4f4;
-}
-
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.cabecalho {
-    background-color: #006b3c;
-    color: white;
-    padding: 20px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.cabecalho .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.cabecalho h1 {
-    font-size: 28px;
-}
-
-.menu {
-    display: flex;
-    gap: 20px;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.menu a:hover {
-    color: #ffdf00;
-}
-
-.hero {
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background:
-        linear-gradient(rgba(0, 80, 45, 0.75), rgba(0, 80, 45, 0.75)),
-        url("https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1600&q=80")
-        center/cover no-repeat;
-}
-
-.hero h2 {
-    font-size: 46px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    max-width: 700px;
-    margin: 0 auto 30px;
-    font-size: 19px;
-}
-
-.botao {
-    display: inline-block;
-    background-color: #ffdf00;
-    color: #222;
-    padding: 12px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.botao:hover {
-    background-color: white;
-    transform: scale(1.05);
-}
-
-.secao {
-    padding: 70px 0;
-    background-color: white;
-}
-
-.secao h2 {
-    color: #006b3c;
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.secao p {
-    max-width: 850px;
-    margin-bottom: 20px;
-    font-size: 17px;
-}
-
-.imagem {
-    display: block;
-    width: 100%;
-    max-width: 900px;
-    height: 450px;
-    object-fit: cover;
-    margin: 30px auto 0;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.destaque {
-    background-color: #e9f5ef;
-}
-
-.rodape {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 25px 0;
-}
-
-.rodape p {
-    margin: 0;
-}
-
-@media (max-width: 768px) {
-    .cabecalho .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .menu {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .hero {
-        min-height: 450px;
-    }
-
-    .hero h2 {
-        font-size: 34px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .secao {
-        padding: 50px 0;
-    }
-
-    .secao h2 {
-        font-size: 28px;
-    }
-
-    .imagem {
-        height: 300px;
-    }
-}
-
-@media (max-width: 480px) {
-    .cabecalho h1 {
-        font-size: 23px;
-    }
-
-    .menu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero h2 {
-        font-size: 28px;
-    }
-
-    .hero p {
-        font-size: 15px;
-    }
-
-    .imagem {
-        height: 230px;
-    }
-}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#222;background:#f4f4f4}
+.container{width:92%;max-width:1150px;margin:0 auto}
+.cabecalho{background:#006b3c;color:#fff;padding:18px 0;position:sticky;top:0;z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+.cabecalho .container{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.cabecalho h1{font-size:28px}
+.menu{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+.menu a{color:#fff;text-decoration:none;font-weight:bold}.menu a:hover{color:#ffdf00}
+.hero{min-height:500px;display:flex;align-items:center;text-align:center;color:#fff;background:linear-gradient(rgba(0,80,45,.78),rgba(0,80,45,.78)),url("https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat}
+.etiqueta{display:inline-block;background:#ffdf00;color:#222;padding:6px 12px;border-radius:20px;font-size:13px;font-weight:bold;margin-bottom:15px}
+.hero h2{font-size:46px;margin-bottom:18px}.hero p{max-width:760px;margin:0 auto 28px;font-size:19px}
+.botao{display:inline-block;background:#ffdf00;color:#222;padding:12px 25px;border-radius:6px;text-decoration:none;font-weight:bold}.botao:hover{background:#fff}
+.secao{padding:65px 0;background:#fff}.secao h2{color:#006b3c;font-size:32px;margin-bottom:12px}.secao p{max-width:900px;margin-bottom:18px;font-size:17px}.destaque{background:#e9f5ef}
+.atualizacao{font-size:14px!important;color:#666;font-weight:bold}
+.imagem{display:block;width:100%;max-width:900px;height:400px;object-fit:cover;margin:28px auto 0;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.2)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:30px 0}.card{background:#f4f4f4;border-radius:10px;padding:22px;text-align:center;border-top:4px solid #006b3c}.card strong{display:block;font-size:30px;color:#006b3c}.card span{font-size:14px}
+.tabela-wrapper{overflow-x:auto;background:#fff;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,.1)}table{width:100%;border-collapse:collapse;min-width:650px}th{background:#006b3c;color:#fff;padding:12px 10px;text-align:center}td{padding:10px;border-bottom:1px solid #ddd;text-align:center}td:nth-child(2){text-align:left;font-weight:bold}tr:hover{background:#f3f3f3}.libertadores{border-left:5px solid #006b3c}.zona-rebaixamento{border-left:5px solid #c62828;background:#fff7f7}.legenda{margin-top:12px;font-size:13px;color:#555}
+.jogos-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:25px}.jogo{background:#f7f7f7;border-left:5px solid #006b3c;border-radius:8px;padding:18px;box-shadow:0 2px 8px rgba(0,0,0,.08)}.jogo span{display:block;color:#006b3c;font-size:13px;font-weight:bold}.jogo strong{display:block;font-size:18px;margin:5px 0}.jogo small{color:#666}
+.rodape{background:#222;color:#fff;text-align:center;padding:25px 0}.rodape p{margin:3px 0;font-size:14px}
+@media(max-width:800px){.cabecalho .container{flex-direction:column}.hero h2{font-size:36px}.cards{grid-template-columns:repeat(2,1fr)}.jogos-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.hero{min-height:430px}.hero h2{font-size:29px}.hero p{font-size:16px}.cards{grid-template-columns:1fr}.secao{padding:45px 0}.secao h2{font-size:27px}.imagem{height:250px}.menu{gap:10px;font-size:14px}}
